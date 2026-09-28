@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/imgHewan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kucing_persia"
+        android:scaleType="centerCrop"
+        android:contentDescription="Gambar hewan" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="12dp">
+
+        <TextView
+            android:id="@+id/txtNamaHewan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kucing Persia"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#111827" />
+
+        <TextView
+            android:id="@+id/txtJenisHewan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis: Kucing"
+            android:textSize="14sp"
+            android:textColor="#6B7280"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/txtUmur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Umur: 6 Bulan"
+            android:textSize="14sp"
+            android:textColor="#6B7280" />
+
+        <TextView
+            android:id="@+id/txtHargaHewan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp2.500.000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#2563EB"
+            android:layout_marginTop="6dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
